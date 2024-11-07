@@ -1,0 +1,21 @@
+@use './first' as *;
+@import "bootstrap/scss/bootstrap";
+
+header {
+  nav {
+    ul {
+      list-style: none;
+
+      li {
+        margin: 5px;
+      }
+    }
+  }
+}
+
+main {
+  h1 {
+    color: $myVar;
+    text-align: center;
+  }
+}
